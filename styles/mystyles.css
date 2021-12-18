@@ -1,0 +1,133 @@
+body {
+    background-image: url("../images/mountainbackgroundpic.jpg");
+}
+nav{
+    text-align: left;
+}
+ul {
+padding: 0;
+margin: 0;
+text-align: right;
+}
+li {
+background-position: 100% .4em;
+padding-right: .6em;
+}
+.navigationbar {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(161, 34, 34);
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: center;
+}
+.navigationbar li {
+    text-align: center;
+    list-style: none;
+    padding: 7px;
+}
+.navigationbar li a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: x-large;
+    padding: 15px;
+}
+.navigationbar li a:hover {
+    text-decoration: coral;
+}
+.nameheader{
+    text-align: center;
+    font-size: 5rem;
+    font-family: Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 3%;
+}
+.othernavigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    list-style: none;
+    text-decoration: none;
+    color:black;
+    background-color: rgb(58, 156, 140);
+    padding: 2px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    
+    text-align: center;
+    border-radius: 15px;
+  }
+.othernavigation li{
+    padding:7px;
+}
+.othernavigation li a{
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+}
+.myhobbies{
+    padding: 3%;
+    text-align: center;
+    border-radius: 10px;
+}
+.myhobbies{
+    background-image: url(../images/woodbackground.jpeg);
+    color:white;
+    font-size: xx-large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2%;
+    text-align: center;
+    border-radius: 10px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.myhobbies p{
+    margin-right: auto;
+    margin-left: auto;
+}
+.myhobbies-img{
+    width: 85%;
+    float: right;
+}
+.rollerskating{
+    background-image: url(../images/blackbackground.jpeg);
+    width: 50%;
+    border-radius: 10px;
+}
+.myfamily{
+    background-image: url(../images/familytitlebackground.jpeg);
+    color:rgb(0, 0, 0);
+    font-size: xx-large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2%;
+    text-align: center;
+    border-radius: 10px;
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.leftwardtext ol{
+    font-weight:bold;
+}
+.leftwardtext li {
+    text-align: left;
+    padding-left: 2%;
+}
+
+.resumestyle{
+    text-align: center;
+    background-color: darkslategray;
+}
+.footer{
+    background-color: teal;
+    width: 100%;
+    bottom: 0px;
+    text-align: center;
+}
